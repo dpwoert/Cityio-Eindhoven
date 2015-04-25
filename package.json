@@ -1,0 +1,34 @@
+{
+    "name": "cityIO-eindhoven-demo",
+    "version": "0.0.1",
+    "description": "Eindhoven demo for CityIO",
+    "author": "Davey van der woert <davey@dpwoert.com>",
+    "contributors": [
+        { "name": "Jesse van Rheenen" },
+        { "name": "Yannick Diezenberg" }
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dpwoert/CityIO-eindhoven/"
+    },
+    "bugs": {
+        "url": "https://github.com/dpwoert/CityIO-eindhoven/issues"
+    },
+    "keywords": [
+        "cityio",
+        "cityio.js",
+        "3D",
+        "webgl",
+        "geo",
+        "eindhoven"
+    ],
+    "dependencies": {
+
+    },
+    "devDependencies": {
+        "gulp": "3.8.1",
+        "connect": "2.14.4",
+        "canvas": "1.2.1"
+    },
+    "license": "GPL"
+}
