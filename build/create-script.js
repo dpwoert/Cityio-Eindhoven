@@ -1,9 +1,6 @@
 var IO = require('cityio');
-
-module.exports = function(){
-
-    var build = new IO.classes.Build();
-    build
+var build = new IO.classes.Build();
+build
     .add('classes.Cycle')
     .add('build.buildings')
     .add('build.areas')
@@ -11,7 +8,5 @@ module.exports = function(){
     .add('FXlib.tiltShift')
     .export('cityio.js')
     .then(function(){
-        console.log('done');
+        console.log('updated cityio script');
     });
-
-}
